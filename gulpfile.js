@@ -1,5 +1,6 @@
 var gulp = require('gulp'),
-    connect = require('gulp-connect'),
+    promise = require('es6-promise'),
+		connect = require('gulp-connect'),
     sourcemaps = require('gulp-sourcemaps'),
     sass = require('gulp-sass'),
     autoprefixer = require('gulp-autoprefixer'),
